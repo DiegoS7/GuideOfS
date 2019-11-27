@@ -26,9 +26,8 @@ namespace Guide_Of_Something
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            main.Show();
-            this.Hide();
+            Guide_Of_Something.MainWindow main = new MainWindow();
+            Guide_Of_Something.MainWindow();
         }
     }
 }
